@@ -7,11 +7,11 @@ const hold = 1500;
 InitRelaxerApp();
 function InitRelaxerApp() {
   text.innerText = "Breathe In";
-  container.className = " container grow";
+  container.className = "container grow";
   setTimeout(() => {
     text.innerText = "hold";
     setTimeout(() => {
-      container.className = " container shrink";
+      container.className = "container shrink";
       text.innerText = "breathe out";
     }, hold);
   }, breathe);
